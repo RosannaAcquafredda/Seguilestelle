@@ -72,11 +72,6 @@ button { font: inherit; color: inherit; }
   color: var(--tlr-grigio-testo);
 }
 .tlr-punto { color: var(--tlr-azzurro); }
-.tlr-vnext-a::before {
-  content: ""; position: absolute; top: 0; right: 0;
-  width: var(--tlr-piega, 44px); height: var(--tlr-piega, 44px);
-  background: linear-gradient(225deg, var(--tlr-pagina) 50%, var(--tlr-azzurro) 50%);
-}
 
 .tlr-hero {
   --tlr-piega: clamp(34px, 5vw, 72px);
@@ -622,7 +617,7 @@ a.tlr-chip.is-current .tlr-chip-n { color: var(--tlr-azzurro); }
   position: relative;
   display: flex; flex-direction: column; gap: 4px;
   padding: 20px 24px 22px;
-  border-radius: var(--tlr-r-card) 0 var(--tlr-r-card) var(--tlr-r-card);
+  border-radius: var(--tlr-r-card);
   background: var(--tlr-nero); color: var(--tlr-bianco);
   text-decoration: none;
   transition: background-color .15s;
@@ -650,6 +645,7 @@ a.tlr-chip.is-current .tlr-chip-n { color: var(--tlr-azzurro); }
 .tlr-rp-marchio { display: flex; align-items: center; gap: 14px; margin: 0; }
 .tlr-rp-marchio span { font-size: 1.5rem; font-weight: 800; letter-spacing: .14em; line-height: 1; }
 .tlr-rp-marchio img { display: block; height: 56px; width: auto; }
+.tlr-rp-loghi img { display: block; height: 100px; width: auto; }
 .tlr-rp-azioni { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 28px; }
 .tlr-rp-login { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; text-decoration: none; }
 .tlr-rp-login img { filter: brightness(0) invert(1); }
