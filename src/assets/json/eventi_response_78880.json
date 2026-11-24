@@ -33,7 +33,7 @@
                 "updated_at": "2026-11-24T08:31:22.000000Z"
             },
             "card_images": [
-                ".assets/images/preview/63.png"
+                "./assets/images/preview/63.png"
             ],
             "rassegna": null
         },
@@ -70,7 +70,7 @@
                 "updated_at": "2026-11-24T08:31:22.000000Z"
             },
             "card_images": [
-                "https://test-events.istsvc.regione.puglia.it/guests/files/preview/64"
+                "./assets/images/preview/64.png"
             ],
             "rassegna": null
         },
