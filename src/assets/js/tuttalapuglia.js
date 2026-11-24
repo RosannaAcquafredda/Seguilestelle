@@ -199,15 +199,13 @@
   function dettaglio(c, id) {
     var k = c.id + '|' + id;
     if (!DETTAGLI[k]) {
-      // Carica il dettaglio dal JSON locale: cerca l'evento con l'ID nel JSON
-      var p = caricaJsonLocale(c.app_code).then(function (r) {
-        var evento = null;
-        (r.data || []).forEach(function (ev) {
-          if (ev.id == id) { evento = ev; }
+      // Carica il dettaglio completo dal file JSON specifico: json-details/event_detail_response_{id}.json
+      var p = leggi('./assets/json/json-details/event_detail_response_' + id + '.json')
+        .then(function (r) {
+          var evento = r.data;
+          if (!evento || evento.id == null) { throw new Error('evento non trovato: ' + id); }
+          return normalizza(evento, c);
         });
-        if (!evento || evento.id == null) { throw new Error('evento non trovato: ' + id); }
-        return normalizza(evento, c);
-      });
       p.catch(function () { if (DETTAGLI[k] === p) { delete DETTAGLI[k]; } });
       DETTAGLI[k] = p;
     }

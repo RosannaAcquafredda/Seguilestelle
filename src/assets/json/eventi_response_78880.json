@@ -1,270 +1,258 @@
 ﻿{
-    "data":  [
-                 {
-                     "id":  110,
-                     "nome":  "Accensione dell’albero di Natale",
-                     "nome_progetto":  "Natale a Bari",
-                     "inizio":  "05-12-2026 07:26",
-                     "fine":  "05-12-2026 07:26",
-                     "modalita":  "presenza",
-                     "app_code":  "78880",
-                     "tags":  [
-
-                              ],
-                     "categories":  [
-                                        {
-                                            "id":  10,
-                                            "name":  "Luminarie e installazioni",
-                                            "code":  "016",
-                                            "vocabulary_id":  2,
-                                            "vocabulary_name":  "Tipologia di evento"
-                                        }
-                                    ],
-                     "sede":  {
-                                  "id":  30,
-                                  "nome":  "Piazza del Ferrarese",
-                                  "indirizzo":  null,
-                                  "citta":  "Bari",
-                                  "cap":  "70120",
-                                  "provincia":  "BA",
-                                  "nazione":  "Italia",
-                                  "latitudine":  null,
-                                  "longitudine":  null,
-                                  "id_project":  5,
-                                  "created_at":  "2026-11-23T18:06:04.000000Z",
-                                  "updated_at":  "2026-11-24T08:31:22.000000Z"
-                              },
-                     "card_images":  [
-                                         "./assets/images/preview/63.png"
-                                     ],
-                     "rassegna":  null
-                 },
-                 {
-                     "id":  111,
-                     "nome":  "Bari accende il Natale",
-                     "nome_progetto":  "Natale a Bari",
-                     "inizio":  "07-12-2026 00:00",
-                     "fine":  "07-12-2026 00:00",
-                     "modalita":  "presenza",
-                     "app_code":  "78880",
-                     "tags":  [
-
-                              ],
-                     "categories":  [
-                                        {
-                                            "id":  6,
-                                            "name":  "Spettacoli e concerti",
-                                            "code":  "011",
-                                            "vocabulary_id":  2,
-                                            "vocabulary_name":  "Tipologia di evento"
-                                        }
-                                    ],
-                     "sede":  {
-                                  "id":  30,
-                                  "nome":  "Piazza del Ferrarese",
-                                  "indirizzo":  null,
-                                  "citta":  "Bari",
-                                  "cap":  "70120",
-                                  "provincia":  "BA",
-                                  "nazione":  "Italia",
-                                  "latitudine":  null,
-                                  "longitudine":  null,
-                                  "id_project":  5,
-                                  "created_at":  "2026-11-23T18:06:04.000000Z",
-                                  "updated_at":  "2026-11-24T08:31:22.000000Z"
-                              },
-                     "card_images":  [
-                                         "./assets/images/preview/64.png"
-                                     ],
-                     "rassegna":  null
-                 },
-                 {
-                     "id":  112,
-                     "nome":  "Natale nei Municipi e luminarie in centro",
-                     "nome_progetto":  "Natale a Bari",
-                     "inizio":  "01-12-2026 07:36",
-                     "fine":  "31-12-2026 07:36",
-                     "modalita":  "presenza",
-                     "app_code":  "78880",
-                     "tags":  [
-
-                              ],
-                     "categories":  [
-                                        {
-                                            "id":  10,
-                                            "name":  "Luminarie e installazioni",
-                                            "code":  "016",
-                                            "vocabulary_id":  2,
-                                            "vocabulary_name":  "Tipologia di evento"
-                                        }
-                                    ],
-                     "sede":  {
-                                  "id":  32,
-                                  "nome":  "5 Municipi",
-                                  "indirizzo":  null,
-                                  "citta":  "Bari",
-                                  "cap":  "70120",
-                                  "provincia":  "BA",
-                                  "nazione":  "Italia",
-                                  "latitudine":  null,
-                                  "longitudine":  null,
-                                  "id_project":  5,
-                                  "created_at":  "2026-11-23T18:07:19.000000Z",
-                                  "updated_at":  "2026-11-24T08:28:14.000000Z"
-                              },
-                     "card_images":  [
-                                         "./assets/images/preview/65.png"
-                                     ],
-                     "rassegna":  null
-                 },
-                 {
-                     "id":  113,
-                     "nome":  "Capodanno a Bari",
-                     "nome_progetto":  "Natale a Bari",
-                     "inizio":  "31-12-2026 07:38",
-                     "fine":  "31-12-2026 07:39",
-                     "modalita":  "presenza",
-                     "app_code":  "78880",
-                     "tags":  [
-
-                              ],
-                     "categories":  [
-                                        {
-                                            "id":  6,
-                                            "name":  "Spettacoli e concerti",
-                                            "code":  "011",
-                                            "vocabulary_id":  2,
-                                            "vocabulary_name":  "Tipologia di evento"
-                                        }
-                                    ],
-                     "sede":  {
-                                  "id":  31,
-                                  "nome":  "Piazza Libertà",
-                                  "indirizzo":  null,
-                                  "citta":  "BARI",
-                                  "cap":  "70120",
-                                  "provincia":  "BA",
-                                  "nazione":  "Italia",
-                                  "latitudine":  null,
-                                  "longitudine":  null,
-                                  "id_project":  5,
-                                  "created_at":  "2026-11-23T18:06:51.000000Z",
-                                  "updated_at":  "2026-11-24T08:31:27.000000Z"
-                              },
-                     "card_images":  [
-                                         "./assets/images/preview/66.png"
-                                     ],
-                     "rassegna":  null
-                 },
-                 {
-                     "id":  114,
-                     "nome":  "Villaggio del gusto",
-                     "nome_progetto":  "Natale a Bari",
-                     "inizio":  "01-12-2026 00:00",
-                     "fine":  "06-01-2027 23:00",
-                     "modalita":  "presenza",
-                     "app_code":  "78880",
-                     "tags":  [
-
-                              ],
-                     "categories":  [
-                                        {
-                                            "id":  9,
-                                            "name":  "Mercatini ed enogastronomia",
-                                            "code":  "015",
-                                            "vocabulary_id":  2,
-                                            "vocabulary_name":  "Tipologia di evento"
-                                        }
-                                    ],
-                     "sede":  {
-                                  "id":  39,
-                                  "nome":  "Piazza Umberto I",
-                                  "indirizzo":  null,
-                                  "citta":  "Bari",
-                                  "cap":  "70120",
-                                  "provincia":  "BA",
-                                  "nazione":  "Italia",
-                                  "latitudine":  null,
-                                  "longitudine":  null,
-                                  "id_project":  5,
-                                  "created_at":  "2026-11-24T06:08:29.000000Z",
-                                  "updated_at":  "2026-11-24T08:26:34.000000Z"
-                              },
-                     "card_images":  [
-                                         "./assets/images/preview/69.png"
-                                     ],
-                     "rassegna":  null
-                 },
-                 {
-                     "id":  115,
-                     "nome":  "Festa di San Nicola",
-                     "nome_progetto":  "Natale a Bari",
-                     "inizio":  "06-12-2026 05:00",
-                     "fine":  "06-12-2026 13:00",
-                     "modalita":  "presenza",
-                     "app_code":  "78880",
-                     "tags":  [
-
-                              ],
-                     "categories":  [
-                                        {
-                                            "id":  8,
-                                            "name":  "Presepi e tradizioni",
-                                            "code":  "014",
-                                            "vocabulary_id":  2,
-                                            "vocabulary_name":  "Tipologia di evento"
-                                        }
-                                    ],
-                     "sede":  {
-                                  "id":  40,
-                                  "nome":  "Basilica di San Nicola",
-                                  "indirizzo":  "Largo Abate Elia, 13",
-                                  "citta":  "Bari",
-                                  "cap":  "70120",
-                                  "provincia":  "BA",
-                                  "nazione":  "Italia",
-                                  "latitudine":  null,
-                                  "longitudine":  null,
-                                  "id_project":  5,
-                                  "created_at":  "2026-11-24T06:15:16.000000Z",
-                                  "updated_at":  "2026-11-24T08:27:28.000000Z"
-                              },
-                     "card_images":  [
-                                         "./assets/images/preview/68.png"
-                                     ],
-                     "rassegna":  null
-                 }
-             ],
-    "links":  {
-                  "first":  "http://events-webserver/api/v1/events?app_code=78880\u0026org_name=nataleInPuglia\u0026page=1",
-                  "last":  "http://events-webserver/api/v1/events?app_code=78880\u0026org_name=nataleInPuglia\u0026page=1",
-                  "prev":  null,
-                  "next":  null
-              },
-    "meta":  {
-                 "current_page":  1,
-                 "from":  1,
-                 "last_page":  1,
-                 "links":  [
-                               {
-                                   "url":  null,
-                                   "label":  "\u0026laquo; Precedente",
-                                   "active":  false
-                               },
-                               {
-                                   "url":  "http://events-webserver/api/v1/events?app_code=78880\u0026org_name=nataleInPuglia\u0026page=1",
-                                   "label":  "1",
-                                   "active":  true
-                               },
-                               {
-                                   "url":  null,
-                                   "label":  "Successivo \u0026raquo;",
-                                   "active":  false
-                               }
-                           ],
-                 "path":  "http://events-webserver/api/v1/events",
-                 "per_page":  15,
-                 "to":  6,
-                 "total":  6
-             }
+    "data": [
+        {
+            "id": 110,
+            "nome": "Accensione dell’albero di Natale",
+            "nome_progetto": "Natale a Bari",
+            "inizio": "05-12-2026 07:26",
+            "fine": "05-12-2026 07:26",
+            "modalita": "presenza",
+            "app_code": "78880",
+            "tags": [],
+            "categories": [
+                {
+                    "id": 10,
+                    "name": "Luminarie e installazioni",
+                    "code": "016",
+                    "vocabulary_id": 2,
+                    "vocabulary_name": "Tipologia di evento"
+                }
+            ],
+            "sede": {
+                "id": 30,
+                "nome": "Piazza del Ferrarese",
+                "indirizzo": null,
+                "citta": "Bari",
+                "cap": "70120",
+                "provincia": "BA",
+                "nazione": "Italia",
+                "latitudine": null,
+                "longitudine": null,
+                "id_project": 5,
+                "created_at": "2026-11-23T18:06:04.000000Z",
+                "updated_at": "2026-11-24T08:31:22.000000Z"
+            },
+            "card_images": [
+                ".assets/images/preview/63.png"
+            ],
+            "rassegna": null
+        },
+        {
+            "id": 111,
+            "nome": "Bari accende il Natale",
+            "nome_progetto": "Natale a Bari",
+            "inizio": "07-12-2026 00:00",
+            "fine": "07-12-2026 00:00",
+            "modalita": "presenza",
+            "app_code": "78880",
+            "tags": [],
+            "categories": [
+                {
+                    "id": 6,
+                    "name": "Spettacoli e concerti",
+                    "code": "011",
+                    "vocabulary_id": 2,
+                    "vocabulary_name": "Tipologia di evento"
+                }
+            ],
+            "sede": {
+                "id": 30,
+                "nome": "Piazza del Ferrarese",
+                "indirizzo": null,
+                "citta": "Bari",
+                "cap": "70120",
+                "provincia": "BA",
+                "nazione": "Italia",
+                "latitudine": null,
+                "longitudine": null,
+                "id_project": 5,
+                "created_at": "2026-11-23T18:06:04.000000Z",
+                "updated_at": "2026-11-24T08:31:22.000000Z"
+            },
+            "card_images": [
+                "https://test-events.istsvc.regione.puglia.it/guests/files/preview/64"
+            ],
+            "rassegna": null
+        },
+        {
+            "id": 112,
+            "nome": "Natale nei Municipi e luminarie in centro",
+            "nome_progetto": "Natale a Bari",
+            "inizio": "01-12-2026 07:36",
+            "fine": "31-12-2026 07:36",
+            "modalita": "presenza",
+            "app_code": "78880",
+            "tags": [],
+            "categories": [
+                {
+                    "id": 10,
+                    "name": "Luminarie e installazioni",
+                    "code": "016",
+                    "vocabulary_id": 2,
+                    "vocabulary_name": "Tipologia di evento"
+                }
+            ],
+            "sede": {
+                "id": 32,
+                "nome": "5 Municipi",
+                "indirizzo": null,
+                "citta": "Bari",
+                "cap": "70120",
+                "provincia": "BA",
+                "nazione": "Italia",
+                "latitudine": null,
+                "longitudine": null,
+                "id_project": 5,
+                "created_at": "2026-11-23T18:07:19.000000Z",
+                "updated_at": "2026-11-24T08:28:14.000000Z"
+            },
+            "card_images": [
+                "./assets/images/preview/65.png"
+            ],
+            "rassegna": null
+        },
+        {
+            "id": 113,
+            "nome": "Capodanno a Bari",
+            "nome_progetto": "Natale a Bari",
+            "inizio": "31-12-2026 07:38",
+            "fine": "31-12-2026 07:39",
+            "modalita": "presenza",
+            "app_code": "78880",
+            "tags": [],
+            "categories": [
+                {
+                    "id": 6,
+                    "name": "Spettacoli e concerti",
+                    "code": "011",
+                    "vocabulary_id": 2,
+                    "vocabulary_name": "Tipologia di evento"
+                }
+            ],
+            "sede": {
+                "id": 31,
+                "nome": "Piazza Libertà",
+                "indirizzo": null,
+                "citta": "BARI",
+                "cap": "70120",
+                "provincia": "BA",
+                "nazione": "Italia",
+                "latitudine": null,
+                "longitudine": null,
+                "id_project": 5,
+                "created_at": "2026-11-23T18:06:51.000000Z",
+                "updated_at": "2026-11-24T08:31:27.000000Z"
+            },
+            "card_images": [
+                "./assets/images/preview/66.png"
+            ],
+            "rassegna": null
+        },
+        {
+            "id": 114,
+            "nome": "Villaggio del gusto",
+            "nome_progetto": "Natale a Bari",
+            "inizio": "01-12-2026 00:00",
+            "fine": "06-01-2027 23:00",
+            "modalita": "presenza",
+            "app_code": "78880",
+            "tags": [],
+            "categories": [
+                {
+                    "id": 9,
+                    "name": "Mercatini ed enogastronomia",
+                    "code": "015",
+                    "vocabulary_id": 2,
+                    "vocabulary_name": "Tipologia di evento"
+                }
+            ],
+            "sede": {
+                "id": 39,
+                "nome": "Piazza Umberto I",
+                "indirizzo": null,
+                "citta": "Bari",
+                "cap": "70120",
+                "provincia": "BA",
+                "nazione": "Italia",
+                "latitudine": null,
+                "longitudine": null,
+                "id_project": 5,
+                "created_at": "2026-11-24T06:08:29.000000Z",
+                "updated_at": "2026-11-24T08:26:34.000000Z"
+            },
+            "card_images": [
+                "./assets/images/preview/69.png"
+            ],
+            "rassegna": null
+        },
+        {
+            "id": 115,
+            "nome": "Festa di San Nicola",
+            "nome_progetto": "Natale a Bari",
+            "inizio": "06-12-2026 05:00",
+            "fine": "06-12-2026 13:00",
+            "modalita": "presenza",
+            "app_code": "78880",
+            "tags": [],
+            "categories": [
+                {
+                    "id": 8,
+                    "name": "Presepi e tradizioni",
+                    "code": "014",
+                    "vocabulary_id": 2,
+                    "vocabulary_name": "Tipologia di evento"
+                }
+            ],
+            "sede": {
+                "id": 40,
+                "nome": "Basilica di San Nicola",
+                "indirizzo": "Largo Abate Elia, 13",
+                "citta": "Bari",
+                "cap": "70120",
+                "provincia": "BA",
+                "nazione": "Italia",
+                "latitudine": null,
+                "longitudine": null,
+                "id_project": 5,
+                "created_at": "2026-11-24T06:15:16.000000Z",
+                "updated_at": "2026-11-24T08:27:28.000000Z"
+            },
+            "card_images": [
+                "./assets/images/preview/68.png"
+            ],
+            "rassegna": null
+        }
+    ],
+    "links": {
+        "first": "http://events-webserver/api/v1/events?app_code=78880&org_name=nataleInPuglia&page=1",
+        "last": "http://events-webserver/api/v1/events?app_code=78880&org_name=nataleInPuglia&page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Precedente",
+                "active": false
+            },
+            {
+                "url": "http://events-webserver/api/v1/events?app_code=78880&org_name=nataleInPuglia&page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Successivo &raquo;",
+                "active": false
+            }
+        ],
+        "path": "http://events-webserver/api/v1/events",
+        "per_page": 15,
+        "to": 6,
+        "total": 6
+    }
 }
