@@ -1,0 +1,56 @@
+/*
+ * Configurazione del sito eventi.
+ *
+ * - api.base: il sito è servito sullo stesso dominio delle API, quindi basta il percorso relativo.
+ *   (Per provare in locale contro l'ambiente di test si può usare l'URL completo, CORS permettendo.)
+ * - api.elenco / api.dettaglio: rotte di sola lettura. {id} viene sostituito con l'id dell'evento.
+ *   A entrambe vengono aggiunti app_code (del comune)
+ * - comuni: gli otto comuni mostrati in testata e nel menu, nell'ordine in cui compaiono.
+ *   id      → usato nell'indirizzo della pagina (#bari, #bari/evento-9): solo minuscole, cifre e trattini
+ *   nome    → nome mostrato
+ *   prefisso→ riga piccola sopra il nome in testata
+ *   app_code→ codice del progetto/comune passato alle API
+ *
+ * - slideshow: immagini a rotazione in apertura (src + alt) e intervallo in millisecondi.
+ *   Sostituire i file in assets/img/natale/ con le foto reali, mantenendo i nomi o aggiornando l'elenco.
+ *
+ * ATTENZIONE: nomi e app_code qui sotto sono di esempio (tutti puntano al progetto 33228
+ * dell'ambiente di test). Sostituirli con gli otto comuni reali.
+ */
+window.TLR_CONFIG = {
+
+  api: {
+    base: 'https://regione.puglia.it/seguilestelle/api',
+    elenco: '/eventi',
+    dettaglio: '/eventi/{id}',
+    max_pagine: 40
+  },
+
+  fuso: 'Europe/Rome',
+
+  comuni: [
+    { id: 'comune-1', nome: 'Bari', prefisso: '', app_code: '78880' },
+    { id: 'comune-2', nome: 'Foggia', prefisso: '', app_code: '78881' },
+    { id: 'comune-3', nome: 'Barletta', prefisso: '', app_code: '78882' },
+    { id: 'comune-4', nome: 'Andria', prefisso: '', app_code: '78883' },
+    { id: 'comune-5', nome: 'Trani', prefisso: '', app_code: '78884' },
+    { id: 'comune-6', nome: 'Taranto', prefisso: '', app_code: '78885' },
+    { id: 'comune-7', nome: 'Brindisi', prefisso: '', app_code: '78886' },
+    { id: 'comune-8', nome: 'Lecce', prefisso: '', app_code: '78887' }
+  ],
+
+  slideshow: {
+    intervallo: 6000,
+    immagini: [
+      { src: 'assets/img/natale/slider_1.jpg', alt: 'Segui le stelle festeggia in Puglia' },
+      { src: 'assets/img/natale/slider_2.jpg', alt: 'Comune di Bari' },
+      { src: 'assets/img/natale/slider_3.jpg', alt: 'Comune di Barletta' },
+      { src: 'assets/img/natale/slider_4.jpg', alt: 'Comune di Andria' },
+	  { src: 'assets/img/natale/slider_5.jpg', alt: 'Comune di Trani' },
+	  { src: 'assets/img/natale/slider_6.jpg', alt: 'Comune di Brindisi' },
+	  { src: 'assets/img/natale/slider_7.jpg', alt: 'Comune di Foggia' },
+	  { src: 'assets/img/natale/slider_8.jpg', alt: 'Comune di Lecce' },
+	  { src: 'assets/img/natale/slider_9.jpg', alt: 'Comune di Taranto' }
+    ]
+  }
+};

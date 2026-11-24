@@ -1,0 +1,231 @@
+﻿{
+    "data":  [
+                 {
+                     "id":  95,
+                     "nome":  "Villaggio di Babbo Natale",
+                     "nome_progetto":  "Natale a Brindisi",
+                     "inizio":  "08-12-2026 00:00",
+                     "fine":  "06-01-2027 00:00",
+                     "modalita":  "presenza",
+                     "app_code":  "78886",
+                     "tags":  [
+
+                              ],
+                     "categories":  [
+                                        {
+                                            "id":  5,
+                                            "name":  "Animazione e intrattenimento",
+                                            "code":  "010",
+                                            "vocabulary_id":  2,
+                                            "vocabulary_name":  "Tipologia di evento"
+                                        }
+                                    ],
+                     "sede":  {
+                                  "id":  23,
+                                  "nome":  "Piazza Vittoria",
+                                  "indirizzo":  null,
+                                  "citta":  "Brindisi",
+                                  "cap":  null,
+                                  "provincia":  "BR",
+                                  "nazione":  null,
+                                  "latitudine":  null,
+                                  "longitudine":  null,
+                                  "id_project":  11,
+                                  "created_at":  "2026-11-23T17:28:22.000000Z",
+                                  "updated_at":  "2026-11-23T17:28:22.000000Z"
+                              },
+                     "card_images":  [
+                                         "./assets/images/preview/35.png"
+                                     ],
+                     "rassegna":  null
+                 },
+                 {
+                     "id":  96,
+                     "nome":  "Christmas Shopping Day",
+                     "nome_progetto":  "Natale a Brindisi",
+                     "inizio":  "23-12-2026 00:00",
+                     "fine":  "23-12-2026 00:00",
+                     "modalita":  "presenza",
+                     "app_code":  "78886",
+                     "tags":  [
+
+                              ],
+                     "categories":  [
+                                        {
+                                            "id":  5,
+                                            "name":  "Animazione e intrattenimento",
+                                            "code":  "010",
+                                            "vocabulary_id":  2,
+                                            "vocabulary_name":  "Tipologia di evento"
+                                        }
+                                    ],
+                     "sede":  {
+                                  "id":  24,
+                                  "nome":  "Corsi del centro, piazza Sottile-De Falco e altre aree previste dalla proposta",
+                                  "indirizzo":  null,
+                                  "citta":  "Brindisi",
+                                  "cap":  null,
+                                  "provincia":  "BR",
+                                  "nazione":  null,
+                                  "latitudine":  null,
+                                  "longitudine":  null,
+                                  "id_project":  11,
+                                  "created_at":  "2026-11-23T17:28:48.000000Z",
+                                  "updated_at":  "2026-11-23T17:28:48.000000Z"
+                              },
+                     "card_images":  [
+                                         "./assets/images/preview/40.png"
+                                     ],
+                     "rassegna":  null
+                 },
+                 {
+                     "id":  97,
+                     "nome":  "Teatro dei Burattini - Ferraiolo",
+                     "nome_progetto":  "Natale a Brindisi",
+                     "inizio":  "26-12-2026 00:00",
+                     "fine":  "28-12-2026 00:00",
+                     "modalita":  "presenza",
+                     "app_code":  "78886",
+                     "tags":  [
+
+                              ],
+                     "categories":  [
+                                        {
+                                            "id":  5,
+                                            "name":  "Animazione e intrattenimento",
+                                            "code":  "010",
+                                            "vocabulary_id":  2,
+                                            "vocabulary_name":  "Tipologia di evento"
+                                        }
+                                    ],
+                     "sede":  {
+                                  "id":  25,
+                                  "nome":  "Largo Gianni D’Errico",
+                                  "indirizzo":  null,
+                                  "citta":  "Brindisi",
+                                  "cap":  null,
+                                  "provincia":  "BR",
+                                  "nazione":  null,
+                                  "latitudine":  null,
+                                  "longitudine":  null,
+                                  "id_project":  11,
+                                  "created_at":  "2026-11-23T17:29:14.000000Z",
+                                  "updated_at":  "2026-11-23T17:29:14.000000Z"
+                              },
+                     "card_images":  [
+                                         "./assets/images/preview/52.png"
+                                     ],
+                     "rassegna":  null
+                 },
+                 {
+                     "id":  98,
+                     "nome":  "Concerto di Capodanno",
+                     "nome_progetto":  "Natale a Brindisi",
+                     "inizio":  "01-01-2027 00:00",
+                     "fine":  "01-01-2027 00:00",
+                     "modalita":  "presenza",
+                     "app_code":  "78886",
+                     "tags":  [
+
+                              ],
+                     "categories":  [
+                                        {
+                                            "id":  6,
+                                            "name":  "Spettacoli e concerti",
+                                            "code":  "011",
+                                            "vocabulary_id":  2,
+                                            "vocabulary_name":  "Tipologia di evento"
+                                        }
+                                    ],
+                     "sede":  {
+                                  "id":  26,
+                                  "nome":  "Nuovo Teatro Verdi",
+                                  "indirizzo":  null,
+                                  "citta":  "Brindisi",
+                                  "cap":  null,
+                                  "provincia":  "BR",
+                                  "nazione":  null,
+                                  "latitudine":  null,
+                                  "longitudine":  null,
+                                  "id_project":  11,
+                                  "created_at":  "2026-11-23T17:29:41.000000Z",
+                                  "updated_at":  "2026-11-23T17:29:41.000000Z"
+                              },
+                     "card_images":  [
+                                         "./assets/images/preview/43.png"
+                                     ],
+                     "rassegna":  null
+                 },
+                 {
+                     "id":  100,
+                     "nome":  "Concerto  Notte di Capodanno",
+                     "nome_progetto":  "Natale a Brindisi",
+                     "inizio":  "31-12-2026 20:30",
+                     "fine":  "01-01-2027 00:00",
+                     "modalita":  "presenza",
+                     "app_code":  "78886",
+                     "tags":  [
+
+                              ],
+                     "categories":  [
+                                        {
+                                            "id":  6,
+                                            "name":  "Spettacoli e concerti",
+                                            "code":  "011",
+                                            "vocabulary_id":  2,
+                                            "vocabulary_name":  "Tipologia di evento"
+                                        }
+                                    ],
+                     "sede":  {
+                                  "id":  27,
+                                  "nome":  "Corso Umberto 1",
+                                  "indirizzo":  null,
+                                  "citta":  "Brindisi",
+                                  "cap":  null,
+                                  "provincia":  "BR",
+                                  "nazione":  null,
+                                  "latitudine":  null,
+                                  "longitudine":  null,
+                                  "id_project":  11,
+                                  "created_at":  "2026-11-23T17:30:12.000000Z",
+                                  "updated_at":  "2026-11-23T17:30:12.000000Z"
+                              },
+                     "card_images":  [
+                                         "./assets/images/preview/47.png"
+                                     ],
+                     "rassegna":  null
+                 }
+             ],
+    "links":  {
+                  "first":  "http://events-webserver/api/v1/events?app_code=78886\u0026org_name=nataleInPuglia\u0026page=1",
+                  "last":  "http://events-webserver/api/v1/events?app_code=78886\u0026org_name=nataleInPuglia\u0026page=1",
+                  "prev":  null,
+                  "next":  null
+              },
+    "meta":  {
+                 "current_page":  1,
+                 "from":  1,
+                 "last_page":  1,
+                 "links":  [
+                               {
+                                   "url":  null,
+                                   "label":  "\u0026laquo; Precedente",
+                                   "active":  false
+                               },
+                               {
+                                   "url":  "http://events-webserver/api/v1/events?app_code=78886\u0026org_name=nataleInPuglia\u0026page=1",
+                                   "label":  "1",
+                                   "active":  true
+                               },
+                               {
+                                   "url":  null,
+                                   "label":  "Successivo \u0026raquo;",
+                                   "active":  false
+                               }
+                           ],
+                 "path":  "http://events-webserver/api/v1/events",
+                 "per_page":  15,
+                 "to":  5,
+                 "total":  5
+             }
+}

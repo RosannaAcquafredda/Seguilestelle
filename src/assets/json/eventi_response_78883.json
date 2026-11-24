@@ -1,0 +1,153 @@
+﻿{
+    "data":  [
+                 {
+                     "id":  67,
+                     "nome":  "Accensione del Grande Albero di Natale",
+                     "nome_progetto":  "Natale a Andria",
+                     "inizio":  "05-12-2026 00:00",
+                     "fine":  "06-01-2027 00:00",
+                     "modalita":  "presenza",
+                     "app_code":  "78883",
+                     "tags":  [
+
+                              ],
+                     "categories":  [
+                                        {
+                                            "id":  10,
+                                            "name":  "Luminarie e installazioni",
+                                            "code":  "016",
+                                            "vocabulary_id":  2,
+                                            "vocabulary_name":  "Tipologia di evento"
+                                        }
+                                    ],
+                     "sede":  {
+                                  "id":  6,
+                                  "nome":  "P.zza Vitt. Emanuele II",
+                                  "indirizzo":  null,
+                                  "citta":  "Andria",
+                                  "cap":  "76123",
+                                  "provincia":  "BAT",
+                                  "nazione":  "Italia",
+                                  "latitudine":  null,
+                                  "longitudine":  null,
+                                  "id_project":  8,
+                                  "created_at":  "2026-11-23T14:42:44.000000Z",
+                                  "updated_at":  "2026-11-24T08:45:23.000000Z"
+                              },
+                     "card_images":  [
+                                         "./assets/images/preview/41.png"
+                                     ],
+                     "rassegna":  null
+                 },
+                 {
+                     "id":  68,
+                     "nome":  "Chapiteau",
+                     "nome_progetto":  "Natale a Andria",
+                     "inizio":  "19-12-2026 00:00",
+                     "fine":  "09-01-2027 00:00",
+                     "modalita":  "presenza",
+                     "app_code":  "78883",
+                     "tags":  [
+
+                              ],
+                     "categories":  [
+                                        {
+                                            "id":  5,
+                                            "name":  "Animazione e intrattenimento",
+                                            "code":  "010",
+                                            "vocabulary_id":  2,
+                                            "vocabulary_name":  "Tipologia di evento"
+                                        }
+                                    ],
+                     "sede":  {
+                                  "id":  6,
+                                  "nome":  "P.zza Vitt. Emanuele II",
+                                  "indirizzo":  null,
+                                  "citta":  "Andria",
+                                  "cap":  "76123",
+                                  "provincia":  "BAT",
+                                  "nazione":  "Italia",
+                                  "latitudine":  null,
+                                  "longitudine":  null,
+                                  "id_project":  8,
+                                  "created_at":  "2026-11-23T14:42:44.000000Z",
+                                  "updated_at":  "2026-11-24T08:45:23.000000Z"
+                              },
+                     "card_images":  [
+                                         "./assets/images/preview/36.png"
+                                     ],
+                     "rassegna":  null
+                 },
+                 {
+                     "id":  69,
+                     "nome":  "Vigilia di Natale",
+                     "nome_progetto":  "Natale a Andria",
+                     "inizio":  "24-12-2026 00:00",
+                     "fine":  "24-12-2026 00:00",
+                     "modalita":  "presenza",
+                     "app_code":  "78883",
+                     "tags":  [
+
+                              ],
+                     "categories":  [
+                                        {
+                                            "id":  6,
+                                            "name":  "Spettacoli e concerti",
+                                            "code":  "011",
+                                            "vocabulary_id":  2,
+                                            "vocabulary_name":  "Tipologia di evento"
+                                        }
+                                    ],
+                     "sede":  {
+                                  "id":  11,
+                                  "nome":  "Largo Torneo, Piazza Toniolo",
+                                  "indirizzo":  null,
+                                  "citta":  "Andria",
+                                  "cap":  "76123",
+                                  "provincia":  "BAT",
+                                  "nazione":  "Italia",
+                                  "latitudine":  null,
+                                  "longitudine":  null,
+                                  "id_project":  8,
+                                  "created_at":  "2026-11-23T16:15:03.000000Z",
+                                  "updated_at":  "2026-11-24T08:46:26.000000Z"
+                              },
+                     "card_images":  [
+                                         "./assets/images/preview/32.png"
+                                     ],
+                     "rassegna":  null
+                 }
+             ],
+    "links":  {
+                  "first":  "http://events-webserver/api/v1/events?app_code=78883\u0026org_name=nataleInPuglia\u0026page=1",
+                  "last":  "http://events-webserver/api/v1/events?app_code=78883\u0026org_name=nataleInPuglia\u0026page=1",
+                  "prev":  null,
+                  "next":  null
+              },
+    "meta":  {
+                 "current_page":  1,
+                 "from":  1,
+                 "last_page":  1,
+                 "links":  [
+                               {
+                                   "url":  null,
+                                   "label":  "\u0026laquo; Precedente",
+                                   "active":  false
+                               },
+                               {
+                                   "url":  "http://events-webserver/api/v1/events?app_code=78883\u0026org_name=nataleInPuglia\u0026page=1",
+                                   "label":  "1",
+                                   "active":  true
+                               },
+                               {
+                                   "url":  null,
+                                   "label":  "Successivo \u0026raquo;",
+                                   "active":  false
+                               }
+                           ],
+                 "path":  "http://events-webserver/api/v1/events",
+                 "per_page":  15,
+                 "to":  3,
+                 "total":  3
+             }
+}

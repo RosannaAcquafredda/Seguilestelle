@@ -1,0 +1,21 @@
+script per scaricare tutte le immagini degli eventi:
+
+const images = document.querySelectorAll('.tlr-ev-img img');
+
+images.forEach(img => {
+  const url = img.currentSrc || img.src;
+  // Estrae il numero finale dall'URL (es. "75" da ".../preview/75")
+  const id = url.split('/').pop();
+  
+  fetch(url)
+    .then(response => response.blob())
+    .then(blob => {
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = `${id}.png`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    })
+    .catch(err => console.error(`Errore nel download dell'immagine ${id}:`, err));
+});

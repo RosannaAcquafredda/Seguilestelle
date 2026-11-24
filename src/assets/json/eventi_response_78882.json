@@ -1,0 +1,180 @@
+﻿{
+    "data":  [
+                 {
+                     "id":  65,
+                     "nome":  "A Fanov – Fanova 2026",
+                     "nome_progetto":  "Natale a Barletta",
+                     "inizio":  "07-12-2026 20:30",
+                     "fine":  "07-12-2026 20:30",
+                     "modalita":  "presenza",
+                     "app_code":  "78882",
+                     "tags":  [
+
+                              ],
+                     "categories":  [
+                                        {
+                                            "id":  8,
+                                            "name":  "Presepi e tradizioni",
+                                            "code":  "014",
+                                            "vocabulary_id":  2,
+                                            "vocabulary_name":  "Tipologia di evento"
+                                        }
+                                    ],
+                     "sede":  {
+                                  "id":  5,
+                                  "nome":  "Lungomare P.P. Mennea",
+                                  "indirizzo":  null,
+                                  "citta":  "Barletta",
+                                  "cap":  "76121",
+                                  "provincia":  "BAT",
+                                  "nazione":  "Italia",
+                                  "latitudine":  null,
+                                  "longitudine":  null,
+                                  "id_project":  7,
+                                  "created_at":  "2026-11-23T14:23:09.000000Z",
+                                  "updated_at":  "2026-11-24T08:36:21.000000Z"
+                              },
+                     "card_images":  [
+                                         "./assets/images/preview/34.png"
+                                     ],
+                     "rassegna":  null
+                 },
+                 {
+                     "id":  66,
+                     "nome":  "Gran Concerto dell\u0027Epifania",
+                     "nome_progetto":  "Natale a Barletta",
+                     "inizio":  "06-01-2027 10:30",
+                     "fine":  "06-01-2027 13:30",
+                     "modalita":  "presenza",
+                     "app_code":  "78882",
+                     "tags":  [
+
+                              ],
+                     "categories":  [
+                                        {
+                                            "id":  6,
+                                            "name":  "Spettacoli e concerti",
+                                            "code":  "011",
+                                            "vocabulary_id":  2,
+                                            "vocabulary_name":  "Tipologia di evento"
+                                        }
+                                    ],
+                     "sede":  {
+                                  "id":  7,
+                                  "nome":  "Corso Vittorio Emanuele II",
+                                  "indirizzo":  null,
+                                  "citta":  "Barletta",
+                                  "cap":  "76121",
+                                  "provincia":  "BAT",
+                                  "nazione":  "Italia",
+                                  "latitudine":  null,
+                                  "longitudine":  null,
+                                  "id_project":  7,
+                                  "created_at":  "2026-11-23T15:00:24.000000Z",
+                                  "updated_at":  "2026-11-24T08:36:10.000000Z"
+                              },
+                     "card_images":  [
+                                         "./assets/images/preview/31.png"
+                                     ],
+                     "rassegna":  null
+                 },
+                 {
+                     "id":  116,
+                     "nome":  "Gran Galà delle luminarie ed evento inaugurale",
+                     "nome_progetto":  "Natale a Barletta",
+                     "inizio":  "29-11-2026 00:00",
+                     "fine":  "06-01-2027 17:00",
+                     "modalita":  "presenza",
+                     "app_code":  "78882",
+                     "tags":  [
+
+                              ],
+                     "categories":  [
+
+                                    ],
+                     "sede":  {
+                                  "id":  4,
+                                  "nome":  "Piazza Aldo Moro",
+                                  "indirizzo":  null,
+                                  "citta":  "Barletta",
+                                  "cap":  "76121",
+                                  "provincia":  "BAT",
+                                  "nazione":  "Italia",
+                                  "latitudine":  null,
+                                  "longitudine":  null,
+                                  "id_project":  7,
+                                  "created_at":  "2026-11-23T14:21:30.000000Z",
+                                  "updated_at":  "2026-11-24T08:36:31.000000Z"
+                              },
+                     "card_images":  [
+                                         "./assets/images/preview/75.png"
+                                     ],
+                     "rassegna":  null
+                 },
+                 {
+                     "id":  117,
+                     "nome":  "Il Concerto dell\u0027Epifania",
+                     "nome_progetto":  "Natale a Barletta",
+                     "inizio":  "05-01-2027 00:00",
+                     "fine":  "05-01-2027 00:00",
+                     "modalita":  "presenza",
+                     "app_code":  "78882",
+                     "tags":  [
+
+                              ],
+                     "categories":  [
+
+                                    ],
+                     "sede":  {
+                                  "id":  44,
+                                  "nome":  "Largo L. Ariosto",
+                                  "indirizzo":  null,
+                                  "citta":  "Barletta",
+                                  "cap":  "76121",
+                                  "provincia":  "BAT",
+                                  "nazione":  null,
+                                  "latitudine":  null,
+                                  "longitudine":  null,
+                                  "id_project":  7,
+                                  "created_at":  "2026-11-24T12:10:15.000000Z",
+                                  "updated_at":  "2026-11-24T12:10:15.000000Z"
+                              },
+                     "card_images":  [
+                                         "./assets/images/preview/76.png"
+                                     ],
+                     "rassegna":  null
+                 }
+             ],
+    "links":  {
+                  "first":  "http://events-webserver/api/v1/events?app_code=78882\u0026org_name=nataleInPuglia\u0026page=1",
+                  "last":  "http://events-webserver/api/v1/events?app_code=78882\u0026org_name=nataleInPuglia\u0026page=1",
+                  "prev":  null,
+                  "next":  null
+              },
+    "meta":  {
+                 "current_page":  1,
+                 "from":  1,
+                 "last_page":  1,
+                 "links":  [
+                               {
+                                   "url":  null,
+                                   "label":  "\u0026laquo; Precedente",
+                                   "active":  false
+                               },
+                               {
+                                   "url":  "http://events-webserver/api/v1/events?app_code=78882\u0026org_name=nataleInPuglia\u0026page=1",
+                                   "label":  "1",
+                                   "active":  true
+                               },
+                               {
+                                   "url":  null,
+                                   "label":  "Successivo \u0026raquo;",
+                                   "active":  false
+                               }
+                           ],
+                 "path":  "http://events-webserver/api/v1/events",
+                 "per_page":  15,
+                 "to":  4,
+                 "total":  4
+             }
+}

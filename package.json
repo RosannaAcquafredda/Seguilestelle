@@ -1,0 +1,12 @@
+{
+  "name": "segui-le-stelle",
+  "version": "1.0.0",
+  "description": "Static replica of Segui le stelle website",
+  "scripts": {
+    "serve": "serve src --listen 3000",
+    "dev": "serve src -s"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
