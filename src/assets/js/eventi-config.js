@@ -41,16 +41,16 @@ window.TLR_CONFIG = {
 
   slideshow: {
     intervallo: 6000,
-    immagini: [
-      { src: 'assets/images/slider_1.jpg', alt: 'Segui le stelle festeggia in Puglia' },
-      { src: 'assets/images/slider_2.jpg', alt: 'Comune di Bari' },
-      { src: 'assets/images/slider_3.jpg', alt: 'Comune di Barletta' },
-      { src: 'assets/images/slider_4.jpg', alt: 'Comune di Andria' },
-	  { src: 'assets/images/slider_5.jpg', alt: 'Comune di Trani' },
-	  { src: 'assets/images/slider_6.jpg', alt: 'Comune di Brindisi' },
-	  { src: 'assets/images/slider_7.jpg', alt: 'Comune di Foggia' },
-	  { src: 'assets/images/slider_8.jpg', alt: 'Comune di Lecce' },
-	  { src: 'assets/images/slider_9.jpg', alt: 'Comune di Taranto' }
+    slides: [
+      {type: 'video', src: 'assets/video/REGIONEPUGLIA_pugliainfesta_16.9+url.mp4', poster: 'assets/images/slider_1.jpg'},
+      {type: 'image', src: 'assets/images/slider_2.jpg', alt: 'Comune di Bari' },
+      {type: 'image', src: 'assets/images/slider_3.jpg', alt: 'Comune di Barletta' },
+      {type: 'image', src: 'assets/images/slider_4.jpg', alt: 'Comune di Andria' },
+	  {type: 'image', src: 'assets/images/slider_5.jpg', alt: 'Comune di Trani' },
+	  {type: 'image', src: 'assets/images/slider_6.jpg', alt: 'Comune di Brindisi' },
+	  {type: 'image', src: 'assets/images/slider_7.jpg', alt: 'Comune di Foggia' },
+	  {type: 'image', src: 'assets/images/slider_8.jpg', alt: 'Comune di Lecce' },
+	  {type: 'image', src: 'assets/images/slider_9.jpg', alt: 'Comune di Taranto' }
     ]
   }
 };
